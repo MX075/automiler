@@ -9,6 +9,7 @@ body{
     background-color: var(--color02);
     margin-top: -16px;
     margin-right: -10px;
+    margin-left: -10px;
 }
 .barra01{
     background-color: var(--color01);
