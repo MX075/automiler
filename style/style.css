@@ -1,0 +1,29 @@
+:root{
+    --color01:#A4A3AE
+}
+body{
+    font-family: sans-serif;
+}
+
+.barra00{
+    background-color: var(--color01);
+    display: block;
+    width: 1500px;
+    height: 150px;
+    margin-left:-1em;
+    margin-top: -1em;
+    box-shadow: -100px -6px 50px rgba(0,0,0,.1) inset;
+    background-attachment: fixed;
+}
+
+a{
+    padding-bottom: 10rem;
+    margin-left: 25%;
+    display: inline-block;
+    font-variant: small-caps;
+    text-align: center;
+    text-decoration-line: none;
+    text-transform: capitalize;
+    
+    
+}
