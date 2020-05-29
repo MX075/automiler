@@ -1,23 +1,17 @@
 :root{
     --colorprin:rgba(107,7,2,42);
     --colorsegun:rgba(184,13,4,72);
-    --colorterc:rgba(125,125,125,49);
+    --colorterc:rgba(125,125,125,42);
 }
 body{
-    
+    margin: 0;
 }
-.barra00{
-    background-color: var(--colorsegun);
-    text-align: right;
-    margin-top: -1rem;
-    margin-left: -1rem;
-    margin-right: -.5rem;
 
-    
-}
 .p00{
 padding:10px;
-
+text-align: right;
+background-color: var(--colorsegun);
+margin: 0;
 }
 .spam00{
  
@@ -26,10 +20,9 @@ padding:10px;
     background-color: var(--colorprin);
     text-align: center;
     margin-top: -1rem;
-    margin-left: -1rem;
-    margin-right: -.5rem;
     box-shadow: 0 15px 15px -5px rgba(0,0,0.10);
-
+    position: fixed;
+    width: 100%;
     
 }
 .nav00{
@@ -44,25 +37,34 @@ a{
     color: black;
     font-size: 2rem;
 }
-a:hover{
+.a00:hover{
+    color:blue;
+    text-decoration-line: underline;
+    font-size: 2.1rem;
+}
+.a01:hover{
+    color:blue;
+    text-decoration-line: underline;
+    font-size: 2.1rem;
+}
+.a02:hover{
     color:blue;
     text-decoration-line: underline;
     font-size: 2.1rem;
 }
 .a00{
- padding-right: 1.5rem;
+    padding-right: 1.5rem;
 }
 .a02{
-  padding-left: 1.5rem;
+    padding-left: 1.5rem;
 }
 .cuerpo00{
     /*background-color: var(--colorterc);*/
-    padding-top: 5rem;
+    padding-top:20rem;
     margin-top: 1rem;
-    margin-left: -1rem;
-    margin-right: -.5rem;
+  
     height: 50rem;
-    background-image:linear-gradient(0deg, rgba(107,7,2,42) 10%, rgba(125,125,125,49) 60%);
+    background-image:linear-gradient(0deg, rgba(107,7,2,100) 10%, rgba(125,125,125,49) 60%);
 
 }
 .texto-cuerpo00{
@@ -72,17 +74,43 @@ a:hover{
 }
 .articulo00{
     background-color: var(--colorprin);
-    margin-top: 1rem;
-    margin-left: -1rem;
-    margin-right: -.5rem;
     margin-top: -1rem;
+    
 
+}
+li{
+    float: left;/*con esto pones uno al lado de la otra*/
+    padding-left: 4.5rem;
+    list-style-type: none;
 }
 .ul00{
+   height: 35rem;
 
 }
+li:hover{
+    color: blanchedalmond;
+    font-size: 1rem;
+    
+}
+
 .li00{
-   
+  font-size: 1rem;
+}
+
+.li-img00{
+    width: 8rem;
+}
+.li-img01{
+    width: 8rem;
+}
+.li-img02{
+    width: 8rem;
+}
+.li-img03{
+    width: 8rem;
+}
+.li-img04{
+    width: 8rem;
 }
 .li01{
   
