@@ -1,58 +1,99 @@
 :root{
-    --color01:#A4A3AE;
-    --color02: #656968;
+    --colorprin:rgba(107,7,2,42);
+    --colorsegun:rgba(184,13,4,72);
+    --colorterc:rgba(125,125,125,49);
 }
 body{
-    font-family: sans-serif;
+    
 }
 .barra00{
-    background-color: var(--color02);
-    width:100vw;
-    height: 4vh;
-    margin-left: -7px;
+    background-color: var(--colorsegun);
+    text-align: right;
+    margin-top: -1rem;
+    margin-left: -1rem;
+    margin-right: -.5rem;
+
     
+}
+.p00{
+padding:10px;
+
+}
+.spam00{
+ 
 }
 .barra01{
-    background-color: var(--color01);
-    display: block;
-    width: 100vw;
-    margin-left: -7px;
-    box-shadow: -100px -6px 50px rgba(0,0,0,.1) inset;
+    background-color: var(--colorprin);
+    text-align: center;
+    margin-top: -1rem;
+    margin-left: -1rem;
+    margin-right: -.5rem;
+    box-shadow: 0 15px 15px -5px rgba(0,0,0.10);
+
     
 }
-
-
 .nav00{
-    
-    width: 10rem;
-    height: 5rem;
-    padding-right: 45rem;
-    position: relative; 
-    bottom: 90px;
-    left: 40rem;
-    display: inline-block;
-    
+    background-color: var(--colorprin);
+    text-align: center;
+    position: relative;
+    bottom: 0.5rem;
+    word-spacing:;
 }
 a{
-    background-color: var(--color02);
-
+    text-decoration-line: none;
+    color: black;
+    font-size: 2rem;
+}
+a:hover{
+    color:blue;
+    text-decoration-line: underline;
+    font-size: 2.1rem;
+}
+.a00{
+ padding-right: 1.5rem;
+}
+.a02{
+  padding-left: 1.5rem;
 }
 .cuerpo00{
-    background-color:var(--color02);
-    margin-top: -21px;
-    margin-left:-10px;
-    margin-right: -10px;
+    /*background-color: var(--colorterc);*/
+    padding-top: 5rem;
+    margin-top: 1rem;
+    margin-left: -1rem;
+    margin-right: -.5rem;
+    height: 50rem;
+    background-image:linear-gradient(0deg, rgba(107,7,2,42) 10%, rgba(125,125,125,49) 60%);
+
 }
 .texto-cuerpo00{
-    width: 10rem;
-    height: 7rem;
+    padding-left: 1.5rem;
+    
+
 }
-.mapa00{
-    margin-left: 45rem;
-    margin-bottom: 10rem;
+.articulo00{
+    background-color: var(--colorprin);
+    margin-top: 1rem;
+    margin-left: -1rem;
+    margin-right: -.5rem;
+    margin-top: -1rem;
+
 }
-.texto-mapa00{
-    background-color: var(--color01);
-    margin-left: 53rem;
-    display: inline-block;
+.ul00{
+
+}
+.li00{
+   
+}
+.li01{
+  
+  
+}
+.li02{
+
+}
+.li03{
+
+}
+.li04{
+
 }
