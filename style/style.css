@@ -2,9 +2,14 @@
     --colorprin:rgba(107,7,2,42);
     --colorsegun:rgba(184,13,4,72);
     --colorterc:rgba(125,125,125,42);
+    --colorart:rgba(97,25,25,38);
+}
+html{
+    scroll-behavior: smooth;
 }
 body{
     margin: 0;
+    background-color: black;
 }
 
 .p00{
@@ -16,43 +21,58 @@ margin: 0;
 .spam00{
  
 }
+.img00{
+    width: 10rem;
+}
 .barra01{
     background-color: var(--colorprin);
     text-align: center;
-    margin-top: -1rem;
-    box-shadow: 0 15px 15px -5px rgba(0,0,0.10);
     position: fixed;
     width: 100%;
+    /*height: 10vh;esto es temporal  para acompdar el 
+    cuerpo00*/
+    margin-top: -1rem;
+    box-shadow: 0 15px 15px 0 rgba(0,0,0.10);
+    z-index: 2;
+    
     
 }
 .nav00{
     background-color: var(--colorprin);
     text-align: center;
-    position: relative;
+    
     bottom: 0.5rem;
-    word-spacing:;
+    
 }
 a{
     text-decoration-line: none;
-    color: black;
+    color:black;
     font-size: 2rem;
+    text-align: center;
+    
+    
+    
 }
 .a00:hover{
     color:blue;
     text-decoration-line: underline;
-    font-size: 2.1rem;
+    
+    transition: all ,2s;
 }
+
 .a01:hover{
     color:blue;
     text-decoration-line: underline;
-    font-size: 2.1rem;
+    transition: all ,2s;
+    
 }
 .a02:hover{
     color:blue;
     text-decoration-line: underline;
-    font-size: 2.1rem;
+    transition: all ,2s;
 }
 .a00{
+    
     padding-right: 1.5rem;
 }
 .a02{
@@ -60,68 +80,140 @@ a{
 }
 .cuerpo00{
     /*background-color: var(--colorterc);*/
-    padding-top:20rem;
+    padding-top: 10rem;
     margin-top: 1rem;
-  
-    height: 50rem;
-    background-image:linear-gradient(0deg, rgba(107,7,2,100) 10%, rgba(125,125,125,49) 60%);
+    box-sizing: border-box;
+    height: 100vh;
+    z-index: 2;
+
+    
 
 }
 .texto-cuerpo00{
-    padding-left: 1.5rem;
+    margin-top:-40rem;
+    padding:2rem ;
+    
+    display: block;
+    color:white ;
     
 
 }
-.articulo00{
-    background-color: var(--colorprin);
-    margin-top: -1rem;
-    
-
-}
-li{
-    float: left;/*con esto pones uno al lado de la otra*/
-    padding-left: 4.5rem;
-    list-style-type: none;
-}
-.ul00{
-   height: 35rem;
-
-}
-li:hover{
-    color: blanchedalmond;
-    font-size: 1rem;
+.video00{
+    width: 100%;
+    z-index: 1;
+    opacity: .85;
     
 }
 
-.li00{
-  font-size: 1rem;
-}
-
-.li-img00{
-    width: 8rem;
-}
-.li-img01{
-    width: 8rem;
-}
-.li-img02{
-    width: 8rem;
-}
-.li-img03{
-    width: 8rem;
-}
-.li-img04{
-    width: 8rem;
-}
-.li01{
-  
-  
-}
-.li02{
+/*nuestros servicios*/
+.nuestrosservicios{
+background-color: var(--colorprin);
+margin-top: 16rem;
+padding-top: 10rem;
+height: 60rem;
+box-sizing: border-box;
 
 }
-.li03{
+.h2{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    box-sizing: border-box;
+}
+/*articulo 0*/
+.art00{
+    
 
 }
-.li04{
+.sect00{
+    background-color:var(--colorart) ;
+    width: 45%;
+    height: 10rem;
+    margin:1rem;
+    box-sizing: border-box;
+    display: inline-block;
+    
+}
+.h3{
+   
+}
+.ph3{
 
 }
+
+.sect01{
+    background-color:var(--colorart) ;
+    width: 45%;
+    height: 10rem;
+    margin:1rem;
+    box-sizing: border-box;
+    display: inline-block;
+    float: right;
+    
+}
+.h31{
+
+}
+.ph31{
+
+}
+.sect02{
+    background-color:var(--colorart) ;
+    width: 45%;
+    height: 10rem;
+    margin:1rem;
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+.h32{
+
+}
+.ph32{
+
+}
+.sect03{
+    background-color:var(--colorart) ;
+    width: 45%;
+    height: 10rem;
+    margin:1rem;
+    box-sizing: border-box;
+    display: inline-block;
+    float: right;
+
+}
+.h33{
+
+}
+.ph33{
+
+}
+.sect04{
+    background-color:var(--colorart) ;
+    width: 45%;
+    height: 10rem;
+    margin:1rem;
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+.h34{
+
+}
+.ph34{
+
+}
+.sect05{
+    background-color:var(--colorart) ;
+    width: 45%;
+    height: 10rem;
+    margin:1rem;
+    box-sizing: border-box;
+    display: inline-block;
+    float: right;
+
+}
+.h35{
+
+}
+.ph35
