@@ -100,15 +100,17 @@ a{
 }
 .video00{
     width: 100%;
+    
     z-index: 1;
     opacity: .85;
+
     
 }
 
 /*nuestros servicios*/
 .nuestrosservicios{
 background-color: var(--colorprin);
-margin-top: 16rem;
+margin-top: 20rem;
 padding-top: 10rem;
 height: 60rem;
 box-sizing: border-box;
@@ -135,9 +137,13 @@ box-sizing: border-box;
     
 }
 .h3{
+    text-align: center;
+    font-size: 1.6rem;
    
 }
 .ph3{
+    text-align: left;
+    font-size: 1.2rem;
 
 }
 
@@ -152,9 +158,13 @@ box-sizing: border-box;
     
 }
 .h31{
+    text-align: center;
+    font-size: 1.6rem;
 
 }
 .ph31{
+    text-align: left;
+    font-size: 1.2rem;
 
 }
 .sect02{
@@ -167,9 +177,13 @@ box-sizing: border-box;
 
 }
 .h32{
+    text-align: center;
+    font-size: 1.6rem;
 
 }
 .ph32{
+    text-align: left;
+    font-size: 1.2rem;
 
 }
 .sect03{
@@ -183,9 +197,13 @@ box-sizing: border-box;
 
 }
 .h33{
+    text-align: center;
+    font-size: 1.6rem;
 
 }
 .ph33{
+    text-align: left;
+    font-size: 1.2rem;
 
 }
 .sect04{
@@ -198,9 +216,13 @@ box-sizing: border-box;
 
 }
 .h34{
+    text-align: center;
+    font-size: 1.6rem;
 
 }
 .ph34{
+    text-align: left;
+    font-size: 1.2rem;
 
 }
 .sect05{
@@ -214,6 +236,40 @@ box-sizing: border-box;
 
 }
 .h35{
+    text-align: center;
+    font-size: 1.6rem;
 
 }
-.ph35
+.ph35{
+    text-align: left;
+    font-size: 1.2rem;
+}
+.fomumap00{
+
+}
+.pmap00{
+
+}
+.mapa00{
+    display: inline-block;
+}
+.botton00{
+    background-color: yellow;
+    display: inline-block;
+    float: right;
+    margin-right: 28rem;
+    position: relative;
+    bottom: 16rem;
+    
+
+    
+    
+    
+  
+}
+.aform00{
+  
+}
+.pbotton{
+   color: white; 
+}
