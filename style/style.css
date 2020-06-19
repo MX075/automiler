@@ -54,20 +54,20 @@ a{
     
     
 }
-.a00:hover{
+.a00:hover:active{
     color:blue;
     text-decoration-line: underline;
     
     transition: all ,2s;
 }
 
-.a01:hover{
+.a01:hover:active{
     color:blue;
     text-decoration-line: underline;
     transition: all ,2s;
     
 }
-.a02:hover{
+.a02:hover:active{
     color:blue;
     text-decoration-line: underline;
     transition: all ,2s;
@@ -126,17 +126,21 @@ box-sizing: border-box;
 }
 /*articulo 0*/
 .art00{
-    
+    background-color: var(--colorsegun);
 
 }
 .sect00{
     background-color:var(--colorart) ;
     width: 45%;
     height: 10rem;
-    margin:1rem;
+    margin:1.2rem;
     box-sizing: border-box;
     display: inline-block;
     
+}
+.sect00:hover:active{
+    box-shadow: 15px 15px 15px 0 rgba(0,0,0.10);
+    transition: all ,1s;
 }
 .h3{
     text-align: center;
@@ -146,18 +150,28 @@ box-sizing: border-box;
 .ph3{
     text-align: left;
     font-size: 1.2rem;
+    margin-left: .7rem;
 
 }
+
 
 .sect01{
     background-color:var(--colorart) ;
     width: 45%;
     height: 10rem;
-    margin:1rem;
+    margin:1.2rem;
+    
     box-sizing: border-box;
     display: inline-block;
     float: right;
     
+}
+.sect01:hover:active{
+    box-shadow: 15px 15px 15px 0 rgba(0,0,0.10);
+    transition: all ,1s;
+}
+.sect01:{
+    transition: all ,1s;
 }
 .h31{
     text-align: center;
@@ -173,10 +187,14 @@ box-sizing: border-box;
     background-color:var(--colorart) ;
     width: 45%;
     height: 10rem;
-    margin:1rem;
+    margin:1.2rem;
     box-sizing: border-box;
     display: inline-block;
 
+}
+.sect02:hover:active{
+    box-shadow: 15px 15px 15px 0 rgba(0,0,0.10);
+    transition: all ,1s;
 }
 .h32{
     text-align: center;
@@ -192,11 +210,16 @@ box-sizing: border-box;
     background-color:var(--colorart) ;
     width: 45%;
     height: 10rem;
-    margin:1rem;
+    margin:1.2rem;
+    
     box-sizing: border-box;
     display: inline-block;
     float: right;
 
+}
+.sect03:hover:active{
+    box-shadow: 15px 15px 15px 0 rgba(0,0,0.10);
+    transition: all ,1s;
 }
 .h33{
     text-align: center;
@@ -212,10 +235,14 @@ box-sizing: border-box;
     background-color:var(--colorart) ;
     width: 45%;
     height: 10rem;
-    margin:1rem;
+    margin:1.2rem;
     box-sizing: border-box;
     display: inline-block;
 
+}
+.sect04:hover:active{
+    box-shadow: 15px 15px 15px 0 rgba(0,0,0.10);
+    transition: all ,1s;
 }
 .h34{
     text-align: center;
@@ -231,11 +258,15 @@ box-sizing: border-box;
     background-color:var(--colorart) ;
     width: 45%;
     height: 10rem;
-    margin:1rem;
+    margin:1.2rem;
     box-sizing: border-box;
     display: inline-block;
     float: right;
 
+}
+.sect05:hover{
+    box-shadow: 15px 15px 15px 0 rgba(0,0,0.10);
+    transition: all ,1s;
 }
 .h35{
     text-align: center;
@@ -274,4 +305,123 @@ box-sizing: border-box;
 }
 .pbotton{
    color: white; 
+}
+/*aca empieza el resposive para celular*/
+@media screen and (max-width:500px)
+{
+    body{
+    
+    }
+    .barra00{
+        
+        position: fixed;
+    }
+    .cuerpo00{
+       height: 31rem;
+    }
+    .video00{
+        width: 31rem;
+        
+        z-index: 1;
+        opacity: .85;
+    }
+    .texto-cuerpo00{
+        margin-top: -9rem;
+        z-index: 2;
+        font-size: 1.4rem;
+    }
+    .nuestrosservicios{
+        width: 31rem;
+        margin-top: 2rem;
+    }
+    .h2{
+        margin-bottom: 7rem;
+
+    }
+    .art00{
+
+    }
+    .sect00{
+        width: 40%;
+      
+    }
+    .h3{
+
+    }
+    .sect01{
+        width: 40%;
+    }
+    .h31{
+
+    }
+    .ph31{
+
+    }
+    .sect02{
+        width: 40%;
+
+    }
+    .h32{
+
+    }
+    .ph32{
+
+    }
+    .sect03{
+        width: 40%;
+
+    }
+    .h33{
+
+    }
+    .ph33{
+
+    }
+    .sect04{
+        width: 40%;
+
+    }
+    .h34{
+
+    }
+    .ph34{
+
+    }
+    .sect05{
+        width: 40%;
+    }
+    .h35{
+
+    }
+    .ph35{
+
+    }
+    .fomumap00{
+
+    }
+    
+    .texto-mapa00{
+       color: white;
+       text-align: center;
+       margin-top: 7rem;
+       margin-left: 10rem;
+    }
+    .mapa00{
+        width: 100%;
+        margin: 5rem;
+    }
+    .botton00{
+      background-color: var(--colorart);
+      color:white;
+      width: 30%;
+      height: 20%;
+      margin-top: 10rem;
+      display:inline;
+    }
+    .aform00{
+
+    }
+    .pbotton{
+       color: white;
+    }
 }
