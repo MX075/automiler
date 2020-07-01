@@ -1,0 +1,50 @@
+:root{
+    --colorprin:rgba(107,7,2,42);
+    --colorsegun:rgba(184,13,4,72);
+    --colorterc:rgba(125,125,125,42);
+    --colorart:rgba(97,25,25,38);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.encabezado00{
+    background-color: var(--colorprin);
+    color:white;
+    text-align: center;
+}
+.img00{
+  width:10rem ;
+  
+}
+.h100{
+
+}
+.nav00{
+
+}
+.a00{
+
+}
+.contactoredes00{
+    height: 45rem;
+}
+.aface{
+
+}
+.imgf{
+    width: 10rem;
+
+}
+
+.ains{
+
+}
+.imgi{
+    width: 10rem;
+
+}
