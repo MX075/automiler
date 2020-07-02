@@ -1,0 +1,127 @@
+/*aca empieza el resposive para celular*/
+@media screen and (max-width:360px)
+{
+    body{
+        margin: 0;
+       
+        background-color: black;
+        font-family: 'Roboto', sans-serif;
+    }
+    .barra00{
+        
+        position: fixed;
+    }
+    .barra01{
+        
+    }
+    .cuerpo00{
+       
+    }
+    .video00{
+        width: 580px;
+        
+    
+       z-index: 1;
+       opacity: .84;
+    }
+    .texto-cuerpo00{
+        display: block;
+        margin-top: -15rem;
+    
+        
+    }
+    .nuestrosservicios{
+        width: 580px;
+        
+        
+    }
+    .h2{
+       
+
+    }
+    .art00{
+
+    }
+    .sect00{
+        width: 40%;
+      
+    }
+    .h3{
+
+    }
+    .sect01{
+        width: 40%;
+    }
+    .h31{
+
+    }
+    .ph31{
+
+    }
+    .sect02{
+        width: 40%;
+
+    }
+    .h32{
+
+    }
+    .ph32{
+
+    }
+    .sect03{
+        width: 40%;
+
+    }
+    .h33{
+
+    }
+    .ph33{
+
+    }
+    .sect04{
+        width: 40%;
+
+    }
+    .h34{
+
+    }
+    .ph34{
+
+    }
+    .sect05{
+        width: 40%;
+    }
+    .h35{
+
+    }
+    .ph35{
+
+    }
+    .mapacoti00{
+        width: 580px;
+    }
+    .fomumap00{
+    
+    }
+    
+    .texto-mapa00{
+       width: 12rem;
+       height: 3rem;
+    }
+    .mapa00{
+        width: 40%; 
+        
+    }
+    .botton00{
+      display: inline-block;
+      margin-left: 20rem;
+    }
+    .aform00{
+       
+    }
+    .pbotton{
+    }
+    .creditos{
+
+    }
+}

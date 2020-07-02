@@ -111,7 +111,7 @@ a{
     width: 100%;
     
     z-index: 1;
-    opacity: .85;
+    opacity: .84;
 
     
 }
@@ -120,7 +120,7 @@ a{
 .nuestrosservicios{
 background-color: var(--colorprin);
 margin-top: 20rem;
-padding-top: 10rem;
+padding-top: 20rem;
 width: 100%;
 height: 45%;
 box-sizing: border-box;
@@ -138,7 +138,8 @@ box-sizing: border-box;
 
 }
 details:hover{
-    border: 1px solid red;
+    background-color: black;
+    border: 1px solid white;
 }
 .sect00{
     border: 2px solid white;
@@ -184,6 +185,7 @@ details:hover{
 .sect01:hover{
     box-shadow: 15px 15px 15px 0 white;
     transition: all ,1s;
+
 }
 .sect01:{
     transition: all ,1s;
@@ -335,122 +337,17 @@ details:hover{
 .pbotton{
    color: white; 
 }
-/*aca empieza el resposive para celular*/
-@media screen and (max-width:500px)
-{
-    body{
-    
-    }
-    .barra00{
-        
-        position: fixed;
-    }
-    .cuerpo00{
-       height: 31rem;
-    }
-    .video00{
-        width: 31rem;
-        
-        z-index: 1;
-        opacity: .85;
-    }
-    .texto-cuerpo00{
-        margin-top: -9rem;
-        z-index: 2;
-        font-size: 1.4rem;
-    }
-    .nuestrosservicios{
-        width: 32.4rem;
-        
-    }
-    .h2{
-        margin-bottom: 7rem;
-
-    }
-    .art00{
-
-    }
-    .sect00{
-        width: 40%;
-      
-    }
-    .h3{
-
-    }
-    .sect01{
-        width: 40%;
-    }
-    .h31{
-
-    }
-    .ph31{
-
-    }
-    .sect02{
-        width: 40%;
-
-    }
-    .h32{
-
-    }
-    .ph32{
-
-    }
-    .sect03{
-        width: 40%;
-
-    }
-    .h33{
-
-    }
-    .ph33{
-
-    }
-    .sect04{
-        width: 40%;
-
-    }
-    .h34{
-
-    }
-    .ph34{
-
-    }
-    .sect05{
-        width: 40%;
-    }
-    .h35{
-
-    }
-    .ph35{
-
-    }
-    .fomumap00{
-
-    }
-    
-    .texto-mapa00{
-       color: white;
-       text-align: center;
-       margin-top: 7rem;
-       margin-left: 10rem;
-    }
-    .mapa00{
-        width: 100%;
-        margin: 5rem;
-    }
-    .botton00{
-      background-color: var(--colorart);
-      color:white;
-      width: 30%;
-      height: 20%;
-      margin-top: 10rem;
-      display:inline;
-    }
-    .aform00{
-
-    }
-    .pbotton{
-       color: white;
-    }
+.creditos{
+    background-color: var(--colorsegun);
+    color: white;
+    width: 580px;
+    height: 80px;
 }
+.creditos00{
+    display: inline-block;
+    margin-top:1rem;
+    margin-left: 1rem;
+
+}
+/*esto es para los creditos aun no me decido 
+como realizarlo*/
