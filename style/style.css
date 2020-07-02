@@ -54,20 +54,25 @@ a{
     
     
 }
-.a00:hover:active{
+.a00:hover{
     color:blue;
     text-decoration-line: underline;
     
     transition: all ,2s;
 }
 
-.a01:hover:active{
+.a01:hover{
     color:blue;
     text-decoration-line: underline;
     transition: all ,2s;
     
 }
-.a02:hover:active{
+.a02:hover{
+    color:blue;
+    text-decoration-line: underline;
+    transition: all ,2s;
+}
+.a03:hover{
     color:blue;
     text-decoration-line: underline;
     transition: all ,2s;
@@ -77,6 +82,9 @@ a{
     padding-right: 1.5rem;
 }
 .a02{
+    padding-left: 1.5rem;
+}
+.a03{
     padding-left: 1.5rem;
 }
 .cuerpo00{
@@ -126,11 +134,16 @@ box-sizing: border-box;
 }
 /*articulo 0*/
 .art00{
-    background-color: var(--colorsegun);
+    background-color: black;
 
 }
+details:hover{
+    border: 1px solid red;
+}
 .sect00{
-    background-color:var(--colorart) ;
+    border: 2px solid white;
+    border-radius:10px;
+    color:white;
     width: 45%;
     height: 10rem;
     margin:1.2rem;
@@ -138,8 +151,8 @@ box-sizing: border-box;
     display: inline-block;
     
 }
-.sect00:hover:active{
-    box-shadow: 15px 15px 15px 0 rgba(0,0,0.10);
+.sect00:hover{
+    box-shadow: 15px 15px 15px 0 white;
     transition: all ,1s;
 }
 .h3{
@@ -156,7 +169,9 @@ box-sizing: border-box;
 
 
 .sect01{
-    background-color:var(--colorart) ;
+    border: 2px solid white;
+    border-radius:10px;
+    color:white;
     width: 45%;
     height: 10rem;
     margin:1.2rem;
@@ -166,8 +181,8 @@ box-sizing: border-box;
     float: right;
     
 }
-.sect01:hover:active{
-    box-shadow: 15px 15px 15px 0 rgba(0,0,0.10);
+.sect01:hover{
+    box-shadow: 15px 15px 15px 0 white;
     transition: all ,1s;
 }
 .sect01:{
@@ -184,7 +199,9 @@ box-sizing: border-box;
 
 }
 .sect02{
-    background-color:var(--colorart) ;
+    border: 2px solid white;
+    border-radius:10px;
+    color:white;
     width: 45%;
     height: 10rem;
     margin:1.2rem;
@@ -192,8 +209,8 @@ box-sizing: border-box;
     display: inline-block;
 
 }
-.sect02:hover:active{
-    box-shadow: 15px 15px 15px 0 rgba(0,0,0.10);
+.sect02:hover{
+    box-shadow: 15px 15px 15px 0 white;
     transition: all ,1s;
 }
 .h32{
@@ -207,7 +224,9 @@ box-sizing: border-box;
 
 }
 .sect03{
-    background-color:var(--colorart) ;
+    border: 2px solid white;
+    border-radius:10px;
+    color:white;
     width: 45%;
     height: 10rem;
     margin:1.2rem;
@@ -217,8 +236,8 @@ box-sizing: border-box;
     float: right;
 
 }
-.sect03:hover:active{
-    box-shadow: 15px 15px 15px 0 rgba(0,0,0.10);
+.sect03:hover{
+    box-shadow: 15px 15px 15px 0 white;
     transition: all ,1s;
 }
 .h33{
@@ -232,7 +251,9 @@ box-sizing: border-box;
 
 }
 .sect04{
-    background-color:var(--colorart) ;
+    border: 2px solid white;
+    border-radius:10px;
+    color:white;
     width: 45%;
     height: 10rem;
     margin:1.2rem;
@@ -240,8 +261,8 @@ box-sizing: border-box;
     display: inline-block;
 
 }
-.sect04:hover:active{
-    box-shadow: 15px 15px 15px 0 rgba(0,0,0.10);
+.sect04:hover{
+    box-shadow: 15px 15px 15px 0 white;
     transition: all ,1s;
 }
 .h34{
@@ -255,7 +276,9 @@ box-sizing: border-box;
 
 }
 .sect05{
-    background-color:var(--colorart) ;
+    border: 2px solid white;
+    border-radius:10px;
+    color:white;
     width: 45%;
     height: 10rem;
     margin:1.2rem;
@@ -265,7 +288,7 @@ box-sizing: border-box;
 
 }
 .sect05:hover{
-    box-shadow: 15px 15px 15px 0 rgba(0,0,0.10);
+    box-shadow: 15px 15px 15px 0 white;
     transition: all ,1s;
 }
 .h35{
@@ -277,7 +300,12 @@ box-sizing: border-box;
     text-align: left;
     font-size: 1.2rem;
 }
+.mapacoti00{
+    background-color: var(--colorsegun);
+    height: 30rem;
+}
 .fomumap00{
+    margin: 5rem;
 
 }
 .pmap00{
@@ -285,23 +313,24 @@ box-sizing: border-box;
 }
 .mapa00{
     display: inline-block;
+    border-radius: 10px;
 }
 .botton00{
-    background-color: yellow;
-    display: inline-block;
-    float: right;
-    margin-right: 28rem;
+    
     position: relative;
-    bottom: 16rem;
-    
-
-    
-    
-    
-  
+    bottom: 19rem;
+ 
 }
 .aform00{
-  
+    border: 1px solid white;
+    border-radius: 40px;
+    display: inline-block;
+    float: right;
+    margin-right: 17rem;/*aca mover voton eje y*/
+ 
+}
+.aform00:hover{
+    background-color: aqua;
 }
 .pbotton{
    color: white; 

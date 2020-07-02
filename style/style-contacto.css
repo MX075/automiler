@@ -34,17 +34,58 @@ body{
     height: 45rem;
 }
 .aface{
-
+   display:block;
+   margin: 5rem;
 }
 .imgf{
     width: 10rem;
 
 }
+.pface{
+    color: white;
+    font-size: 2rem;
+    display:inline-block;
+    position: relative;
+    bottom:4rem ;  
+}
 
 .ains{
+    display:block;
+    margin: 5rem;
+
 
 }
 .imgi{
     width: 10rem;
 
+}
+.pins{
+    color: white;
+    font-size: 2rem;
+    display:inline-block;
+    position: relative;
+    bottom:4rem ;
+}
+.pemail{
+    margin:5rem 5rem 0 ;
+    display: inline-block;
+
+}
+.imgemail{
+    width: 10rem;
+}
+.correo00{
+    
+    color: white;
+    font-size: 2rem;
+    display:inline-block;
+    position: relative;
+    bottom:4rem ;
+    
+    
+}
+.contacto-mapa00{
+    border-radius: 10px;
+    margin: 5;
+    text-align: center;
 }
