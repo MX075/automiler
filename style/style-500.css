@@ -1,9 +1,12 @@
 /*aca empieza el resposive para celular*/
 @media screen and (max-width:360px)
 {
+    html{
+        
+    }
     body{
         margin: 0;
-       
+        width: 360px;
         background-color: black;
         font-family: 'Roboto', sans-serif;
     }
@@ -12,14 +15,17 @@
         position: fixed;
     }
     .barra01{
+        width: 360px;
         
     }
     .cuerpo00{
-       
+        width: 360px;
+        display: inline-block;
+        margin-top: 10rem;
     }
     .video00{
+        display: inline-block;
         width: 360px;
-        
     
        z-index: 1;
        opacity: .84;
@@ -34,23 +40,25 @@
         width: 360px;
         
         
+        
     }
     .h2{
        
 
     }
     .art00{
-
+        width: 360px;
+        height: 1190px;
     }
     .sect00{
-        width: 40%;
+        width: 90%;
       
     }
     .h3{
 
     }
     .sect01{
-        width: 40%;
+        width: 90%;
     }
     .h31{
 
@@ -59,7 +67,7 @@
 
     }
     .sect02{
-        width: 40%;
+        width: 90%;
 
     }
     .h32{
@@ -69,7 +77,7 @@
 
     }
     .sect03{
-        width: 40%;
+        width: 90%;
 
     }
     .h33{
@@ -79,7 +87,7 @@
 
     }
     .sect04{
-        width: 40%;
+        width: 90%;
 
     }
     .h34{
@@ -89,7 +97,7 @@
 
     }
     .sect05{
-        width: 40%;
+        width: 90%;
     }
     .h35{
 
@@ -98,7 +106,8 @@
 
     }
     .mapacoti00{
-        width: 580px;
+        width: 360px;
+        height: 600px;
     }
     .fomumap00{
     
@@ -107,14 +116,22 @@
     .texto-mapa00{
        width: 12rem;
        height: 3rem;
+       display: inline-block;
+       margin-top: 5rem;
     }
     .mapa00{
-        width: 40%; 
+        width: 80%;
+        height: 80%;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        display: inline-block;
+
         
     }
     .botton00{
       display: inline-block;
-      margin-left: 20rem;
+      margin-left: 6rem;
+      margin-top: 20rem;
     }
     .aform00{
        
@@ -122,6 +139,7 @@
     .pbotton{
     }
     .creditos{
-
+        display: inline-block;
+        width: 360px;
     }
 }
