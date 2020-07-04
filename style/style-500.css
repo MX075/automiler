@@ -1,12 +1,12 @@
 /*aca empieza el resposive para celular*/
-@media screen and (max-width:360px)
+@media screen and (max-width:375px)
 {
     html{
         
     }
     body{
         margin: 0;
-        width: 360px;
+        width: 375px;
         background-color: black;
         font-family: 'Roboto', sans-serif;
     }
@@ -15,17 +15,17 @@
         position: fixed;
     }
     .barra01{
-        width: 360px;
+        width: 375px;
         
     }
     .cuerpo00{
-        width: 360px;
+        width: 375px;
         display: inline-block;
         margin-top: 10rem;
     }
     .video00{
         display: inline-block;
-        width: 360px;
+        width: 375px;
     
        z-index: 1;
        opacity: .84;
@@ -37,7 +37,7 @@
         
     }
     .nuestrosservicios{
-        width: 360px;
+        width: 375px;
         
         
         
@@ -47,7 +47,7 @@
 
     }
     .art00{
-        width: 360px;
+        width: 375px;
         height: 1190px;
     }
     .sect00{
@@ -106,7 +106,7 @@
 
     }
     .mapacoti00{
-        width: 360px;
+        width: 375px;
         height: 600px;
     }
     .fomumap00{
@@ -140,6 +140,6 @@
     }
     .creditos{
         display: inline-block;
-        width: 360px;
+        width: 375pxpx;
     }
 }
