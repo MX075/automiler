@@ -1,45 +1,44 @@
 /*aca empieza el resposive para celular*/
-@media screen and (max-width:375px)
+@media  (max-width:580px)
 {
     html{
         
     }
     body{
-        margin: 0;
-        width: 375px;
-        background-color: black;
-        font-family: 'Roboto', sans-serif;
+        
     }
     .barra00{
-        
-        position: fixed;
+    
     }
     .barra01{
-        width: 375px;
+        
         
     }
     .cuerpo00{
-        width: 375px;
-        display: inline-block;
-        margin-top: 10rem;
+        
+    
+        
     }
     .video00{
-        display: inline-block;
-        width: 375px;
+       
+        width: 580px;
+       
     
-       z-index: 1;
-       opacity: .84;
+        z-index: 1;
+        opacity: .84;
+        
     }
     .texto-cuerpo00{
-        display: block;
-        margin-top: -15rem;
+        display: inline-block;
+        width: 400px;
+        height: 300px;
+        
+        
     
-        
+       
     }
-    .nuestrosservicios{
-        width: 375px;
-        
-        
+    .nuestrosservicios{   
+        width: 580px;
         
     }
     .h2{
@@ -47,11 +46,11 @@
 
     }
     .art00{
-        width: 375px;
-        height: 1190px;
+        height: 1200px;
+       
     }
     .sect00{
-        width: 90%;
+       width: 90%;
       
     }
     .h3{
@@ -59,6 +58,7 @@
     }
     .sect01{
         width: 90%;
+        
     }
     .h31{
 
@@ -68,6 +68,7 @@
     }
     .sect02{
         width: 90%;
+        
 
     }
     .h32{
@@ -78,6 +79,7 @@
     }
     .sect03{
         width: 90%;
+        
 
     }
     .h33{
@@ -88,6 +90,7 @@
     }
     .sect04{
         width: 90%;
+        
 
     }
     .h34{
@@ -98,6 +101,7 @@
     }
     .sect05{
         width: 90%;
+        
     }
     .h35{
 
@@ -106,32 +110,36 @@
 
     }
     .mapacoti00{
-        width: 375px;
-        height: 600px;
+        width: 580px;
     }
     .fomumap00{
+        
     
     }
     
     .texto-mapa00{
-       width: 12rem;
-       height: 3rem;
-       display: inline-block;
-       margin-top: 5rem;
+        
+        width: 12rem;
+        height: 3rem;
+        position: relative;
+        top:5rem;
+        font-size: 1.4rem;
+        
+       
+        
     }
     .mapa00{
-        width: 80%;
-        height: 80%;
-        margin-left: 2rem;
-        margin-top: 2rem;
         display: inline-block;
+        width: 10rem;
+        height: 10rem;
+        margin-top: 10rem;
 
         
     }
     .botton00{
-      display: inline-block;
-      margin-left: 6rem;
-      margin-top: 20rem;
+         display: inline-block;
+         margin-left: 18rem;
+         margin-top: 7rem;
     }
     .aform00{
        
@@ -139,7 +147,6 @@
     .pbotton{
     }
     .creditos{
-        display: inline-block;
-        width: 375pxpx;
+        
     }
 }
