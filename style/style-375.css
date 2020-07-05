@@ -1,25 +1,40 @@
-/*aca empieza el resposive para celular*/
-@media  (max-width:580px)
+@media screen and (device-width:375px)
 {
     html{
         
     }
     body{
+     max-width: 375px;
         
     }
-    
+   
     .barra01{
+        display: inline-block;
+        font-size: 1rem;
+        max-width: 375;
         
-        z-index: 2;
+        
+    }
+    .p00{
+        
+        width: 375px;
+
+    }
+    .nav00{
+        
+        width: 375;
+    }
+    a{
+        font-size: 1rem;
     }
     .cuerpo00{
-        
+        width: 375px;
     
         
     }
     .video00{
        
-        width: 580px;
+        width: 375px;
        
     
         z-index: 1;
@@ -27,20 +42,14 @@
         
     }
     .texto-cuerpo00{
-        display: inline-block;
-        width: 400px;
-        height: 200px;
-        position: relative;
-        bottom:2rem;
         
-        opacity: .24;
-        
+        font-size: .5rem;
         
     
        
     }
     .nuestrosservicios{   
-        width: 580px;
+        width: 375px;
         
     }
     .h2{
@@ -112,7 +121,7 @@
 
     }
     .mapacoti00{
-        width: 580px;
+        width: 375px;
     }
     .fomumap00{
         
@@ -121,27 +130,18 @@
     
     .texto-mapa00{
         
-        width: 12rem;
-        height: 3rem;
-        position: relative;
-        top:5rem;
-        font-size: 1.4rem;
+        
         
        
         
     }
     .mapa00{
-        display: inline-block;
-        width: 10rem;
-        height: 10rem;
-        margin-top: 10rem;
+        
 
         
     }
     .botton00{
-         display: inline-block;
-         margin-left: 18rem;
-         margin-top: 7rem;
+         
     }
     .aform00{
        
@@ -149,6 +149,22 @@
     .pbotton{
     }
     .creditos{
-        
+        width: 375;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
