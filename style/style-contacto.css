@@ -16,6 +16,9 @@ body{
     background-color: var(--colorprin);
     color:white;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    margin-top: -20rem;
 }
 .img00{
   width:10rem ;
@@ -25,67 +28,92 @@ body{
 
 }
 .nav00{
+    background-color: var(--colorsegun);
+    height: 40px;
+}
+
+a{
+    text-decoration-line: none;
+    color:black;
+    font-size: 2rem;
+    text-align: center;
+    
 
 }
-.a00{
-
+.a00:hover{
+    color:white;
+    text-decoration-line: underline;
+    border: 2px solid white;
+    border-radius: 10px ;
+    /*transition: all ,2s;*/
+    margin-right: 1.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+}
+.pv{
+    
 }
 .contactoredes00{
-    height: 45rem;
+    margin-top: 20rem;
+    height:400px;
+    
 }
 .aface{
-   display:block;
-   margin: 5rem;
+   color: white;
+   text-align: left;
+   display: inline-block;
+   margin-left: 5rem;
 }
 .imgf{
-    width: 10rem;
+    width: 8rem;
 
 }
 .pface{
-    color: white;
-    font-size: 2rem;
-    display:inline-block;
-    position: relative;
-    bottom:4rem ;  
+    font-size:1.8rem ; 
 }
 
 .ains{
-    display:block;
-    margin: 5rem;
-
+  color: white; 
+  
+  float: right; 
+  margin-right: 5rem;
 
 }
 .imgi{
-    width: 10rem;
+    width: 8rem;
 
 }
 .pins{
-    color: white;
-    font-size: 2rem;
-    display:inline-block;
-    position: relative;
-    bottom:4rem ;
+    font-size:1.8rem ;
+    
 }
 .pemail{
-    margin:5rem 5rem 0 ;
+    float: right;
     display: inline-block;
+    margin-right: 13rem;
+    text-align: center;
+    
 
 }
 .imgemail{
-    width: 10rem;
+    width: 8rem;
 }
-.correo00{
-    
+.pcorreo{
     color: white;
+    font-size: 1.5rem;
+    margin-right: 5rem;
+    text-align: center;
+    
+}
+.pmap00{
+    color:white;
+    text-align: center;
     font-size: 2rem;
-    display:inline-block;
-    position: relative;
-    bottom:4rem ;
-    
-    
 }
 .contacto-mapa00{
     border-radius: 10px;
-    margin: 5;
+    margin-bottom: 10rem;
+    margin-left: 25rem;
     text-align: center;
 }

@@ -3,6 +3,7 @@
     --colorsegun:rgba(184,13,4,72);
     --colorterc:rgba(125,125,125,42);
     --colorart:rgba(97,25,25,38);
+    --bottomcolor:rgba(107,28,2,100);
 }
 html{
     scroll-behavior: smooth;
@@ -23,13 +24,14 @@ margin: 0;
  
 }
 .img00{
-    width: 10rem;
+    width: 14rem;
 }
 .barra01{
     background-color: var(--colorprin);
     text-align: center;
     position: fixed;
     width: 100%;
+    height: 200px;
     /*height: 10vh;esto es temporal  para acompdar el 
     cuerpo00*/
     margin-top: -1rem;
@@ -39,10 +41,9 @@ margin: 0;
     
 }
 .nav00{
-    background-color: var(--colorprin);
+    background-color: var(--colorsegun);
     text-align: center;
-    
-    bottom: 0.5rem;
+    margin-top: 2rem;
     
 }
 a{
@@ -55,37 +56,79 @@ a{
     
 }
 .a00:hover{
-    color:blue;
+    color:black;
     text-decoration-line: underline;
-    
-    transition: all ,2s;
+    border: 2px solid white;
+    border-radius: 10px ;
+    /*transition: all ,2s;*/
+    margin-right: 1.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .a01:hover{
-    color:blue;
+    color:black;
     text-decoration-line: underline;
-    transition: all ,2s;
+    border: 2px solid white ;
+    border-radius: 10px ;
+    margin-right: 1.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
     
 }
 .a02:hover{
-    color:blue;
+    color:black;
     text-decoration-line: underline;
-    transition: all ,2s;
+    border: 2px solid white;
+    border-radius: 10px ;
+    margin-right: 1.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    
 }
 .a03:hover{
-    color:blue;
+    color:black;
     text-decoration-line: underline;
-    transition: all ,2s;
+    border: 2px solid white;
+    border-radius: 10px ;
+    margin-right: 1.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    
 }
 .a00{
+    background-color:var(--bottomcolor);
+    margin-right: 1.5rem;
     
-    padding-right: 1.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    text-align: center;
+}
+.a01{
+    background-color:var(--bottomcolor);
+    margin-right: 1.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    text-align: center;
+
 }
 .a02{
-    padding-left: 1.5rem;
+    background-color:var(--bottomcolor);
+    margin-right: 1.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    text-align: center;
 }
 .a03{
-    padding-left: 1.5rem;
+    background-color:var(--bottomcolor);
+    margin-right: 1.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    text-align: center;
 }
 .cuerpo00{
     /*background-color: var(--colorterc);*/
