@@ -4,6 +4,7 @@
     --colorterc:rgba(125,125,125,42);
     --colorart:rgba(97,25,25,38);
     --bottomcolor:rgba(107,28,2,100);
+    --colorsombra:rgba();
 }
 html{
     scroll-behavior: smooth;
@@ -159,11 +160,12 @@ a{
     
 }
 
+
 /*nuestros servicios*/
 .nuestrosservicios{
 background-color: var(--colorprin);
-margin-top: 20rem;
-padding-top: 20rem;
+margin-top: 16rem; /*esto es para el margen arribe de servicioos*/
+/*padding-top: 10rem; esto es arriba en el comentario*/
 width: 100%;
 height: 45%;
 box-sizing: border-box;
@@ -196,7 +198,7 @@ details:hover{
     
 }
 .sect00:hover{
-    box-shadow: 15px 15px 15px 0 white;
+    box-shadow: 10px 10px 10px 0 rgb(151, 151, 151);
     transition: all ,1s;
 }
 .h3{
@@ -226,7 +228,7 @@ details:hover{
     
 }
 .sect01:hover{
-    box-shadow: 15px 15px 15px 0 white;
+    box-shadow: 10px 10px 10px 0 rgb(151, 151, 151);
     transition: all ,1s;
 
 }
@@ -255,7 +257,7 @@ details:hover{
 
 }
 .sect02:hover{
-    box-shadow: 15px 15px 15px 0 white;
+    box-shadow: 10px 10px 10px 0 rgb(151, 151, 151);
     transition: all ,1s;
 }
 .h32{
@@ -282,7 +284,7 @@ details:hover{
 
 }
 .sect03:hover{
-    box-shadow: 15px 15px 15px 0 white;
+    box-shadow: 10px 10px 10px 0 rgb(151, 151, 151);
     transition: all ,1s;
 }
 .h33{
@@ -307,7 +309,7 @@ details:hover{
 
 }
 .sect04:hover{
-    box-shadow: 15px 15px 15px 0 white;
+    box-shadow: 10px 10px 10px 0 rgb(151, 151, 151);
     transition: all ,1s;
 }
 .h34{
@@ -333,7 +335,7 @@ details:hover{
 
 }
 .sect05:hover{
-    box-shadow: 15px 15px 15px 0 white;
+    box-shadow: 10px 10px 10px 0 rgb(151, 151, 151);
     transition: all ,1s;
 }
 .h35{
@@ -345,13 +347,18 @@ details:hover{
     text-align: left;
     font-size: 1.2rem;
 }
+
 .mapacoti00{
     background-color: var(--colorsegun);
     height: 30rem;
+    margin-top: 16rem;
 }
 .fomumap00{
     margin: 5rem;
 
+}
+.texto-mapa00{
+    font-size: 2rem;
 }
 .pmap00{
 
@@ -371,7 +378,7 @@ details:hover{
     border-radius: 40px;
     display: inline-block;
     float: right;
-    margin-right: 17rem;/*aca mover voton eje y*/
+    margin-right: 17rem;/*aca mover boton eje y*/
  
 }
 .aform00:hover{
@@ -383,7 +390,7 @@ details:hover{
 .creditos{
     background-color: var(--colorsegun);
     color: white;
-    width: 580px;
+    /*width: 580px;*/
     height: 80px;
 }
 .creditos00{

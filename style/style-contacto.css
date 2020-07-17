@@ -19,6 +19,7 @@ body{
     position: fixed;
     width: 100%;
     margin-top: -20rem;
+    z-index: 2;
 }
 .img00{
   width:10rem ;
@@ -96,14 +97,37 @@ a{
     
 
 }
-.imgemail{
-    width: 8rem;
+.botton00{
+    z-index: 1;
+    position: relative;
+    bottom: 14rem;
+ 
 }
+.aform00{
+    
+    z-index: 1;
+    color:white;
+    border: 1px solid white;
+    border-radius: 40px;
+    display: inline-block;
+    float: right;
+    margin-right: 37rem;/*aca mover boton eje y*/
+ 
+}
+.aform00:hover{
+    background-color: aqua;
+}
+
 .pcorreo{
+    display:inline-block;
     color: white;
     font-size: 1.5rem;
-    margin-right: 5rem;
-    text-align: center;
+    margin-left: 32.5rem;
+    position: relative;
+    bottom: 10rem;
+   
+    
+    
     
 }
 .pmap00{
