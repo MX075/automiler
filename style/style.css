@@ -11,7 +11,7 @@ html{
 }
 body{
     margin: 0;
-    background-color: black;
+    background-color:black;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -50,7 +50,7 @@ margin: 0;
 a{
     text-decoration-line: none;
     color:black;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     
     
@@ -132,7 +132,7 @@ a{
     text-align: center;
 }
 .cuerpo00{
-    /*background-color: var(--colorterc);*/
+   /* background-color:black;*/
     padding-top: 10rem;
     margin-top: 1rem;
     box-sizing: border-box;
@@ -155,7 +155,7 @@ a{
     width: 100%;
     
     z-index: 1;
-    opacity: .84;
+    opacity: .54;
 
     
 }
@@ -163,35 +163,35 @@ a{
 
 /*nuestros servicios*/
 .nuestrosservicios{
-background-color: var(--colorprin);
+background-color: black;
 margin-top: 16rem; /*esto es para el margen arribe de servicioos*/
 /*padding-top: 10rem; esto es arriba en el comentario*/
 width: 100%;
-height: 45%;
-box-sizing: border-box;
+height: 500px;
+/*box-sizing: border-box;*/
 
 }
 .h2{
     color: white;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     box-sizing: border-box;
 }
 /*articulo 0*/
 .art00{
-    background-color: black;
+    background-color: antiquewhite;
 
 }
 details:hover{
     background-color: black;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 .sect00{
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius:10px;
-    color:white;
+    color:black;
     width: 45%;
-    height: 10rem;
+    height: 5rem;
     margin:1.2rem;
     box-sizing: border-box;
     display: inline-block;
@@ -199,7 +199,7 @@ details:hover{
 }
 .sect00:hover{
     box-shadow: 10px 10px 10px 0 rgb(151, 151, 151);
-    transition: all ,1s;
+    transition: all ,.5s;
 }
 .h3{
     text-align: center;
@@ -215,11 +215,11 @@ details:hover{
 
 
 .sect01{
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius:10px;
-    color:white;
+    color:black;
     width: 45%;
-    height: 10rem;
+    height: 5rem;
     margin:1.2rem;
     
     box-sizing: border-box;
@@ -229,7 +229,7 @@ details:hover{
 }
 .sect01:hover{
     box-shadow: 10px 10px 10px 0 rgb(151, 151, 151);
-    transition: all ,1s;
+    transition: all ,.5s;
 
 }
 .sect01:{
@@ -246,11 +246,11 @@ details:hover{
 
 }
 .sect02{
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius:10px;
-    color:white;
+    color:black;
     width: 45%;
-    height: 10rem;
+    height: 5rem;
     margin:1.2rem;
     box-sizing: border-box;
     display: inline-block;
@@ -258,7 +258,7 @@ details:hover{
 }
 .sect02:hover{
     box-shadow: 10px 10px 10px 0 rgb(151, 151, 151);
-    transition: all ,1s;
+    transition: all ,.5s;
 }
 .h32{
     text-align: center;
@@ -271,11 +271,11 @@ details:hover{
 
 }
 .sect03{
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius:10px;
-    color:white;
+    color:black;
     width: 45%;
-    height: 10rem;
+    height: 5rem;
     margin:1.2rem;
     
     box-sizing: border-box;
@@ -285,7 +285,7 @@ details:hover{
 }
 .sect03:hover{
     box-shadow: 10px 10px 10px 0 rgb(151, 151, 151);
-    transition: all ,1s;
+    transition: all ,.5s;
 }
 .h33{
     text-align: center;
@@ -298,11 +298,11 @@ details:hover{
 
 }
 .sect04{
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius:10px;
-    color:white;
+    color:black;
     width: 45%;
-    height: 10rem;
+    height: 5rem;
     margin:1.2rem;
     box-sizing: border-box;
     display: inline-block;
@@ -310,7 +310,7 @@ details:hover{
 }
 .sect04:hover{
     box-shadow: 10px 10px 10px 0 rgb(151, 151, 151);
-    transition: all ,1s;
+    transition: all ,.5s;
 }
 .h34{
     text-align: center;
@@ -323,11 +323,11 @@ details:hover{
 
 }
 .sect05{
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius:10px;
-    color:white;
+    color:black;
     width: 45%;
-    height: 10rem;
+    height: 5rem;
     margin:1.2rem;
     box-sizing: border-box;
     display: inline-block;
@@ -336,7 +336,7 @@ details:hover{
 }
 .sect05:hover{
     box-shadow: 10px 10px 10px 0 rgb(151, 151, 151);
-    transition: all ,1s;
+    transition: all ,.5s;
 }
 .h35{
     text-align: center;
@@ -347,7 +347,22 @@ details:hover{
     text-align: left;
     font-size: 1.2rem;
 }
+.publicidad{
+    
+}
+.h4publi{
+    color: white;
+    display: inline-block;
+    font-size: 2rem;
+    margin-bottom:7rem;
+    margin-left: 34rem;
+    border: 2px solid white;
+    
 
+}
+.face00{
+    margin-left: 27rem;
+}
 .mapacoti00{
     background-color: var(--colorsegun);
     height: 30rem;
