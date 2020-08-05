@@ -38,11 +38,15 @@
        
     }
     .video00{
+        margin-top: 8rem;
+        width: 100%;
+        height: 30%;
 
     }
     .texto-cuerpo00{
         font-size: 1rem;
-        
+        color: white;
+        margin-top: 20rem;
         
     }
     .esp00{
@@ -141,10 +145,11 @@
         width: 30%;
         position: relative;
         top: 12rem;
-        left: 1rem;
+        left: 15rem;
 
 
     }
+   
     .pbotton{
 
     }

@@ -1,5 +1,6 @@
 :root{
-    --colorfondo:;
+    --colorboton:#0060fe;
+    --colorhover:#004dcb;
 
 }
 html{
@@ -333,6 +334,7 @@ a{
     
 }
 .aform00{
+    background-color: var(--colorboton);
     border: 1px solid white;
     border-radius: 40px;
     display: inline-block;
@@ -341,7 +343,7 @@ a{
     margin-right: 15rem;/*aca mover boton eje y*/
 }
 .aform00:hover{
-    background-color: aqua;
+    background-color:var(--colorhover);
 }
 .pbotton{
     color:white;

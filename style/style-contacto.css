@@ -1,3 +1,9 @@
+:root{
+    --colorboton:#0060fe;
+    --colorhover:#004dcb;
+
+}
+
 body{
     margin:0;
     background-color:aliceblue;
@@ -97,9 +103,8 @@ a{
 
 }
 .botton00{
-    border-top-style: solid;
-    border-left-style:solid;
-    border-right-style:solid;
+    background-color:var(--colorboton);
+    
     border-top-left-radius:50%;
     border-top-right-radius: 50%;
     display: inline-block;
@@ -110,7 +115,7 @@ a{
 
 }
 .botton00:hover{
-    background-color: aqua;
+    background-color:var(--colorhover);
 }
 .aform00{
     
