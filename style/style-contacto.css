@@ -85,7 +85,8 @@ a{
     display: inline-block;
     font-size: 1.8rem;
     position: relative;
-    right: 1rem;
+    
+    left: 2rem;
 
 }
 .imgc{
@@ -95,4 +96,40 @@ a{
     right: 11rem;
 
 }
+.botton00{
+    border-top-style: solid;
+    border-left-style:solid;
+    border-right-style:solid;
+    border-top-left-radius:50%;
+    border-top-right-radius: 50%;
+    display: inline-block;
+    width: 10%;
+    position: fixed;
+    bottom: .1rem;
+
+
+}
+.botton00:hover{
+    background-color: aqua;
+}
+.aform00{
+    
+
+}
+.pbotton{
+    font-size: 1.3rem;
+
+}
+.mapa011{
+    text-align: center;
+}
+.pmap00{
+    
+    font-size: 1.8rem;
+
+}
+.contacto-mapa00{
+    
+}
+
 

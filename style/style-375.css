@@ -1,16 +1,151 @@
-:root{
-    
-}
+@media(max-width:375px){
+ body{
+     margin:0;
+ }   
+    .barra01{
+        width: 375px;
+
+    }
+    .p00{
+        font-size: .8rem;
+
+    }
+    .span00{
+
+    }
+    .img00{
+        width: 25%;
+
+    }
+    .nav00{
+        font-size: .8rem;
+        margin-left: .1rem;
+        word-spacing: .1rem;
+    }
+    .a00{
+
+    }
+    .a01{
+        
+    }
+    .a02{
+        
+    }
+    .a03{
+        margin-left: 39%;
+    }
+    .cuerpo00{
+       
+    }
+    .video00{
+
+    }
+    .texto-cuerpo00{
+        font-size: 1rem;
+        
+        
+    }
+    .esp00{
+
+    }
+    .nuestrosservicios{
+
+    }
+    .h2{
+
+    }
+    .art00{
+
+    }
+    .sect00{
+        width: 35%;
+
+    }
+    .h3{
+        font-size: 1rem;
+
+    }
+    .sect01{
+        width: 35%;
+    }
+    .h31{
+        font-size: 1rem;
+        
+    }
+    .sect02{
+        width: 35%;
+
+    }
+    .h32{
+        font-size: 1rem;
+        
+    }
+    .sect03{
+        width: 35%;
+
+    }
+    .h33{
+        font-size: 1rem;
+        
+    }
+    .sect04{
+        width: 35%;
+
+    }
+    .h34{
+        font-size: 1rem;
+        
+    }
+    .sect05{
+        width: 35%;
+
+    }
+    .h35{
+        font-size: 1rem;
+        
+    }
+    .publicidad{
+        
+        
+    }
+    .h4publi{
+        font-size: 1rem;
+        text-align: center;
+
+    }
+    .face00{
+        width: 75%;
+    }
+    .mapacoti00{
+
+    }
+    .fomumap00{
+        
+    }
+    .texto-mapa00{
+        font-size: 1rem;
+
+    }
+    .mapa00{
+        width: 35%;
+        height: 45%;
+
+    }
+    .botton00{
+
+    }
+    .aform00{
+        border: 1px solid white;
+        border-radius: 40px;
+        display: inline-block;
+        width: 30%;
+        position: relative;
+        top: 12rem;
+        left: 1rem;
 
 
+    }
+    .pbotton{
 
-
-
-
-
-
-
-
-
-
+    }
 }
