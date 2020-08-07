@@ -108,9 +108,10 @@ a{
     border-top-left-radius:50%;
     border-top-right-radius: 50%;
     display: inline-block;
-    width: 10%;
+    width: 15%;
     position: fixed;
     bottom: .1rem;
+    right: 7rem;
 
 
 }

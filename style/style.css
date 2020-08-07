@@ -35,10 +35,11 @@ body{
 }
 .nav00{
     display: inline;
-    margin-left: 35%;
+    margin-left: 15%;
     font-size: 1.5rem;
     word-spacing: 1rem;
     height: 5rem;
+    
     
 }
 a{
@@ -335,12 +336,13 @@ a{
 }
 .aform00{
     background-color: var(--colorboton);
-    border: 1px solid white;
+    
     border-radius: 40px;
     display: inline-block;
-    width: 10%;
+    width: 15%;
     float: right;
-    margin-right: 15rem;/*aca mover boton eje y*/
+    margin-right: 5rem;/*aca mover boton eje y*/
+    margin-top: 10rem;
 }
 .aform00:hover{
     background-color:var(--colorhover);
