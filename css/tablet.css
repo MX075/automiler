@@ -12,3 +12,9 @@
 .plans-container--slider {
   justify-content: center;
 }
+.main-exchange-container--map iframe{
+  width: 900px;
+  height: 400px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
